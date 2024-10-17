@@ -115,6 +115,7 @@ html{
 .time-area{
     /* background-color: blueviolet; */
     font-family: "NationalPack";
+    color: rgb(200, 200, 200);
 }
 .data-week{
     /* background-color: cadetblue; */
@@ -156,9 +157,99 @@ html{
     bottom: 0;
     margin-right: 6rem;
     margin-bottom: 3rem;
+    border-radius: 10px;
     font-family: 'SiYuanRegular';
+    /* 添加静态浮动效果 */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);  /* 添加持续的阴影效果 */
+    /* 轻微上浮效果 */
+    transform: translateY(-5px);  /* 使卡片永久向上偏移 5 像素 */
+    /* 背景和其他样式 */
+    background-color: rgb(254, 254, 254);  /* 设置背景色，确保阴影可见 */
+}
+/* .operation-item{
+    width: 3.5rem;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-left: none;
+    height: 1.5rem;
+    
+    
+} */
+
+
+/* .operation-item-like {
+    width: 3.5rem;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;  
+}
+
+.operation-item-write{
+    width: 3.5rem;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;  
 }
 .operation-item{
-    margin-right: 1rem;
-    border: 1px solid black;
+    width: 3.5rem;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-left: none;
+    height: 1.5rem;
+    cursor: pointer;  
+}
+.operation-item:hover{
+    background-color: rgb(245, 245, 245);
+} */
+
+.operation-item-like {
+    background-color: white;
+    width: 3.5rem;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;  
+    font-size: large;
+}
+
+.operation-item-write{
+    background-color: white;
+    width: 3.5rem;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer; 
+    font-size: large; 
+}
+.operation-item{
+    background-color: white;
+    width: 3.5rem;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-left: none;
+    height: 1.5rem;
+    cursor: pointer;  
+    font-size: large;
+}
+.operation-item:hover{
+  background-color: rgb(245, 245, 245);
+}
+.operation-item:active{
+  background-color: rgb(230, 230, 230);
+}
+.operation-item-like:hover{
+  background-color: rgb(245, 245, 245);
+}
+.operation-item-like:active{
+  background-color: rgb(230, 230, 230);
+}
+.operation-item-write:hover{
+  background-color: rgb(245, 245, 245);
+}
+.operation-item-write:active{
+  background-color: rgb(230, 230, 230);
 }
